@@ -1,0 +1,15 @@
+JSON OBJECT EXAMPLE:
+
+{
+    "firstName": "jimmy",
+    "lastName": "jk",
+    "email": "j@orkut.com"
+}
+
+POSTMAN CLIENT:
+
+GET: http://localhost:8080/students
+GET single: http://localhost:8080/students/{id}
+POST (CREATE): http://localhost:8080/students/new
+PUT (UPDATE): http://localhost:8080/students/{id}
+DELETE: http://localhost:8080/students/{id}
